@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "kids-and-coconuts-travelblog",
+  "description": "Wij reizen de wereld rond met het hele gezin",
   "version": "1.0.0",
-  "author": "saigowtham",
-  "homepage": "https://saigowthamr.github.io/gatsby-advanced-starter",
+  "author": "jade yorks",
+  "homepage": "https://github.com/jaduh/reisblog2.0",
   "dependencies": {
     "gatsby": "^2.0.11",
     "gatsby-image": "^2.0.9",
@@ -39,6 +39,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/jaduh/reisblog2.0"
   }
 }
