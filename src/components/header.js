@@ -1,51 +1,30 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import logo from '../images/logo.png'
+import './header.css'
 
 const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h2 style={{ margin: 0 }}>
-        <a
-          href="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          {'Home'}
-        </a>
+ 
 
-      </h2>
-      <a href="https://github.com/saigowthamr/gatsby-advanced-starter"
-        style={{ color: "white", float: "right" }} title="github" >Github</a>
-      <Link
-        to="/tags"
-        style={{
-          color: 'gold',
-          marginRight: '27px',
-          backgroundColor: "black",
-          padding: "4px",
-          float: "right",
-          textDecoration: 'none',
-          fontStyle: "bold"
-        }}
-      >
-        All tags
-      </Link>
+    <div className='menu-container'>
+    <Link to="">
+        <img className='logo'src={logo} width="" height="20%" alt="logo Kids And Coconuts" />
+    </Link>
 
-    </div>
-  </div>
+        <nav>
+        
+            <Link to="blog">
+            <div className='menu-item'>Blog</div></Link>
+            <Link to=""><div className='menu-item'>Over ons</div></Link>
+            <Link to="page-2"><div className='menu-item'>Babbeltje doen?</div></Link>
+        
+        </nav>
+   </div>   
+  
+  
+
+
+
 )
 
 export default Header

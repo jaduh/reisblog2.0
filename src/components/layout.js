@@ -27,7 +27,7 @@ const Layout = ({ children }) => (
           <html lang="en" />
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <div
+        <div class="container"
           style={{
             margin: '0 auto',
             maxWidth: 960,

@@ -1,5 +1,5 @@
 ---
-title: My first Blog post
+title: My first blu Blog post
 date: '2018-12-02'
 image: "time.jpg"
 tags: ['javascript','react','gatsby']
