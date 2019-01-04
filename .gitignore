@@ -1,4 +1,4 @@
-node_modules/
+node_modules/git config --local --edit
 public
 .gatsby-context.js
 .DS_Store
