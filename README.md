@@ -1,4 +1,4 @@
-# Gatsbyjs blog advanced  starter with seo,tags,sitemaps and best practices
+# Gatsby en react leren door een voorbeeld site volledig te personaliseren
 
 
 ![gatsbyblog starter kit](https://i.imgur.com/TyXI76p.png)
