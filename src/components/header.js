@@ -8,13 +8,12 @@ const Header = ({ siteTitle }) => (
 
     <div className='menu-container'>
     <Link to="">
-        <img className='logo'src={logo} width="" height="20%" alt="logo Kids And Coconuts" />
+        <img className='logo'src={logo} alt="logo Kids And Coconuts" />
     </Link>
 
         <nav>
         
-            <Link to="blog">
-            <div className='menu-item'>Blog</div></Link>
+            <Link to="blog"><div className='menu-item'>Blog</div></Link>
             <Link to=""><div className='menu-item'>Over ons</div></Link>
             <Link to="page-2"><div className='menu-item'>Babbeltje doen?</div></Link>
         

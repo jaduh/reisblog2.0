@@ -3,8 +3,10 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 article,
 aside,
@@ -14,8 +16,6 @@ figure,
 footer,
 header,
 main,
-menu,
-nav,
 section,
 summary {
   display: block;
@@ -439,11 +439,12 @@ blockquote {
   margin-left: 1.45rem;
   margin-right: 1.45rem;
   margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
+  padding:0;
   margin-bottom: 1.45rem;
+  font-size: 2rem;
+  line-height: 2rem;
+  color: #80b4b1;
+  width: 60vw;
 }
 form {
   margin-left: 0;
@@ -624,3 +625,13 @@ pre tt:after {
 }
 
 
+.blog-container{
+  max-height: 80vh;
+  min-width: 100vw;
+}
+
+.blog-container h1{
+  font-size: 4rem;
+  width: 50vw;
+  margin:2rem 2rem 2rem 2rem;
+}

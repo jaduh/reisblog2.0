@@ -2,6 +2,8 @@
 title: My second Blog post
 date: '2018-12-02'
 tags: ['javascript','react']
+featuredImage: "./time.jpg"
+
 ---
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry.

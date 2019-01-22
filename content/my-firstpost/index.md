@@ -3,6 +3,8 @@ title: My first blu Blog post
 date: '2018-12-02'
 image: "time.jpg"
 tags: ['javascript','react','gatsby']
+featuredImage: "./time.jpg"
+
 ---
 
 ## Why do we use it?

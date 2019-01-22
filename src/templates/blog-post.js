@@ -5,12 +5,12 @@ import { graphql } from 'gatsby'
 import PrevNext from '../components/prevnext';
 import MetaTags from '../components/Metatags';
 import Share from '../components/share';
+import Header from '../components/header'
 
 function BlogPost(props) {
 
-    const url = props.data.site.siteMetadata.siteUrl
-    const thumbnail = props.data.markdownRemark.frontmatter.image &&
-        props.data.markdownRemark.frontmatter.image.childImageSharp.resize.src
+    const url = props.data.site.siteMetadata.siteUrl;
+    const thumbnail = props.data.markdownRemark.frontmatter.image && props.data.markdownRemark.frontmatter.image.childImageSharp.resize.src;
     const { title, image, tags } = props.data.markdownRemark.frontmatter;
     const { prev, next } = props.pageContext;
     return (
@@ -22,9 +22,10 @@ function BlogPost(props) {
                 url={url}
                 pathname={props.location.pathname}
             />
-            <div>
-                <h1>{title}</h1>
+            <div class='blog-container'>
+                <Header />
                 {image && <Img fluid={image.childImageSharp.fluid} />}
+                <h1>{title}</h1>
                 <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }} />
                 <div>
                     <span>Tagged in </span>
