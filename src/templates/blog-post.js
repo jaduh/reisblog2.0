@@ -22,14 +22,19 @@ function BlogPost(props) {
                 url={url}
                 pathname={props.location.pathname}
             />
-            <div class='blog-container'>
+            <div className='blog-container'>
                 <Header />
                    
                     {image && <Img fluid={image.childImageSharp.fluid} />}
-                
-                <h1>{title}</h1>
-                <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }} />
+                <div className='content'>   
+
+                    <div className='content-blok'>
+                        <h1>{title}</h1>
+                            <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }} />
+                            </div>
+                    </div>
                 <div>
+                
                     <span>Tagged in </span>
                     {tags.map((tag, i) => (
                         <a href={`/${tag}`} key={i} style={{ marginLeft: "10px" }} >{tag}</a>

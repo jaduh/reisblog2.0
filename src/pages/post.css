@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Special+Elite|Amatic+SC|Montserrat|Oswald|Roboto+Condensed|Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Special+Elite|Amatic+SC|Montserrat|Oswald|Roboto+Condensed|Open+Sans+Condensed:300|Rubik');
 *{
     padding:0;
     margin:0;
@@ -16,10 +16,16 @@ body{
    
 }
 
-.post-list h1{
-
+h1{
     font-family: 'Oswald', Courier, monospace;
 }
+
+p{
+    font-family: 'Rubik', sans-serif;
+
+
+}
+
 .link{
 
     text-decoration: none;
@@ -33,7 +39,7 @@ body{
 
     display: grid;
   grid-template-columns: repeat(3, 25vw);
-  grid-template-rows: repeat(2, 25vh);
+  grid-template-rows: repeat(2, 5vh);
   grid-gap:2rem;
   justify-content: center;
 
@@ -54,8 +60,9 @@ body{
 }
 
 img{
-  height: 90% !important;
+  height: 100% !important;
 }
+
 
 .post-list:hover{
     color: #f29c81;
@@ -128,3 +135,26 @@ img{
    
 }
 
+.content{
+ width: 100vw;
+ display: flex;
+ justify-content: center;
+
+}
+
+.content-blok{
+    width:50vw;
+    font-size: 1.5rem;
+    line-height: 150%;
+}
+
+.content-blok h1{
+    margin-left:0;
+}
+.blog-container{
+    max-height: 80vh;
+    min-width: 100vw;
+  }
+  
+
+   

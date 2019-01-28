@@ -37,8 +37,9 @@ const IndexPage = (props) => {
 
           <div className="post-list">
             
-            <h1>{node.frontmatter.title}</h1>
+        
             <Img sizes={node.frontmatter.featuredImage.childImageSharp.sizes} />
+            <h1>{node.frontmatter.title}</h1>
             {/* <span>{node.frontmatter.date}</span> */}
             {/* <p>{node.excerpt}</p> */}
           </div>
