@@ -144,12 +144,23 @@ img{
 
 .content-blok{
     width:50vw;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     line-height: 150%;
 }
-
+blockquote {
+    /* margin-left: 1.45rem;
+    margin-right: 1.45rem; */
+    margin: 0;
+    padding:0;
+    margin-bottom: 1.45rem;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    color: #80b4b1;
+    width: 50vw;
+  }
 .content-blok h1{
-    margin-left:0;
+    margin: 6rem 0;
+    font-size: 4rem;
 }
 .blog-container{
     max-height: 80vh;
@@ -157,4 +168,18 @@ img{
   }
   
 
-   
+  @media screen and (max-width: 850px) {
+
+
+    .content-blok, blockquote{
+        width:65vw;
+    }
+    .content-blok h1{
+        
+        font-size: 3rem;
+    }
+    blockquote{
+        font-size: 2rem;
+        
+    }
+  }

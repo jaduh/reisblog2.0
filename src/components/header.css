@@ -1,7 +1,7 @@
 .menu-container{
     max-width:90vw;
     display: flex;
-    max-height: 5rem;
+    max-height: 6rem;
   }
   nav{
     font-family: 'Special Elite', cursive;

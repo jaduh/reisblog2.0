@@ -625,13 +625,6 @@ pre tt:after {
 }
 
 
-.blog-container{
-  max-height: 80vh;
-  min-width: 100vw;
-}
 
-.blog-container h1{
-  font-size: 4rem;
-  width: 50vw;
-  margin:2rem 2rem 2rem 2rem;
-}
+
+
