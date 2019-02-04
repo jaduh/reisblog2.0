@@ -16,10 +16,20 @@ body{
    
 }
 
-h1{
+h1, h2, h3{
     font-family: 'Oswald', Courier, monospace;
 }
 
+
+h2{
+    font-size: 2rem;
+    color:#f29c81;
+
+}
+
+h3{
+    font-size: 1.5rem;
+}
 p{
     font-family: 'Rubik', sans-serif;
 
