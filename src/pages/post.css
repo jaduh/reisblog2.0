@@ -54,7 +54,9 @@ p{
   justify-content: center;
 
 }
-
+.container h1{
+    margin-top:1rem;
+}
 .post-list {
     /* border: 1px solid  gainsboro;
     padding: .5rem;
@@ -76,6 +78,7 @@ img{
 
 .post-list:hover{
     color: #f29c81;
+   
    
 }
 
@@ -184,7 +187,13 @@ blockquote {
 
     @media screen and (max-width: 850px) {
 
+        .container{
+            display: block;
+        }
 
+        .post-list{
+            padding: 5rem;
+        }
     .content-blok, blockquote{
         width:65vw;
     }
